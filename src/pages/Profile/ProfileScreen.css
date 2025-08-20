@@ -1,0 +1,80 @@
+.profile-container {
+  width: 375px;
+  height: 812px;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 24px;
+  border: 1px solid#e2e6ee;
+}
+.profile-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.profile-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.profile-img-wrapper {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  margin-right: 24px;
+}
+.profile-img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+  background: transparent;
+}
+.profile-camera-btn {
+  position: absolute;
+  left: 55px;
+  top: 53px;
+  width: 21px;
+  height: 23px;
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  padding: 0;
+  opacity: 1;
+  z-index: 2;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.profile-email {
+  font-size: 1rem;
+  color: #555;
+}
+.profile-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 32px;
+}
+.profile-end {
+  border-top: 2px dashed #dde2e9; 
+  margin: 16px -23px 0;               
+  width: 115%;     
+}
+
